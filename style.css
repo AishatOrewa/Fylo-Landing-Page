@@ -195,7 +195,6 @@ body>footer{
   .hero{
     flex-direction: column-reverse;
     text-align: center;
-    width: max-content;
   }
   .hero form{
     flex-direction: column;
