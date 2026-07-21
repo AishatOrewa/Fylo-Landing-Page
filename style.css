@@ -52,7 +52,7 @@ input{
   padding: 1rem;
   border-radius: 4px;
 }
-.hero button{
+button{
   background-color: hsl(224, 93%, 58%);
 }
 button{
@@ -180,4 +180,57 @@ body>footer{
 .socials{
   display: flex;
   gap:1rem;
+}
+.socials img{
+  width: 40px;
+  color: white;
+}
+.footer-content a:hover{
+  color: hsl(224, 93%, 58%);
+}
+@media (max-width: 768px){
+  nav{
+    padding: 1.5rem;
+  }
+  .hero{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero form{
+    flex-direction: column;
+    margin: 0 3rem;
+    width: 300px;
+  }
+  .productive{
+    flex-direction: column-reverse;
+  }
+  .productive h2{
+    text-align: center;
+  }
+  .productive a{
+    margin: 0 5rem 1rem 5rem;
+  }
+  .testimony{
+    justify-content: center;
+    max-width: 270px;
+    margin: 0 1rem;
+  }
+  .Support{
+    flex-direction: column;
+    text-align: center;
+  }
+  .Support-form{
+    flex-direction: column;
+    width: 300px;
+  }
+  .hero form>button, .Support-form button{
+    width: 300px;
+  }
+  .footer-content{
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .socials{
+    margin: 0 8rem;
+  }
 }
