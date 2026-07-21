@@ -190,7 +190,7 @@ body>footer{
 }
 @media (max-width: 768px){
   nav{
-    
+    width: 200px;
   }
   .hero{
     flex-direction: column-reverse;
