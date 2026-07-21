@@ -190,7 +190,7 @@ body>footer{
 }
 @media (max-width: 768px){
   nav{
-    width: 200px;
+    width: 250px;
   }
   .hero{
     flex-direction: column-reverse;
@@ -204,7 +204,6 @@ body>footer{
   }
   .productive{
     flex-direction: column-reverse;
-    width: max-content;
   }
   .productive h2{
     text-align: center;
@@ -220,7 +219,6 @@ body>footer{
   .Support{
     flex-direction: column;
     text-align: center;
-    width: max-content;
   }
   .Support-form{
     flex-direction: column;
