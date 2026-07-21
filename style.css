@@ -24,13 +24,14 @@ nav a{
   justify-content: space-between;
   align-items: center;
   gap:3rem;
+  padding: 6rem 4rem;
 }
 .hero-image img{
   max-width: 100%;
   height: auto;
   display: block;
 }
-.hero-text, .hero-image{
+.hero-text, .hero-image, .Support-text, .Support-form{
   flex: 1;
 }
 .hero-text h1{
@@ -49,8 +50,97 @@ form{
 input{
   flex: 1;
   padding: 1rem;
+  border-radius: 4px;
 }
 button{
   padding: 1rem 2rem;
   cursor:pointer;
+  align-self: flex-start;
+  border: none;
+  border-radius: 4px;
+}
+.productive{
+  background-image: url('images/bg-curve-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  padding: 6rem 4rem;
+}
+.productive a{
+  text-decoration: none;
+  color:hsl(243, 87%, 12%);
+  border-bottom: 2px solid hsl(243, 87%, 12%);
+  padding-bottom: 0.3rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.productive a>img{
+  width: 18px;
+}
+.productive-image img{
+  max-width: 100%;
+  display: block;
+  height:auto;
+}
+.quote{
+  width: 18px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.testimony{
+  width: 350px;
+  background:white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,.1);
+  margin-top: 1rem;
+}
+.productive-profile{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.productive-profile img{
+  width: 40px;
+  border-radius: 50%;
+}
+.testimony>p{
+  line-height: 1.7;
+  font-size: 0.9rem;
+  color: hsl(243, 87%, 12%);
+}
+.productive-profile h3{
+  font-size: 0.9rem;
+}
+.productive-profile p{
+  font-size: 0.75rem;
+}
+.Support{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(234, 22%, 44%);
+  padding: 5rem 4rem;
+}
+.Support h3{
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.Support p{
+  color:white;
+  line-height: 1.6;
+}
+.Support-form{
+  display: flex;
+  flex-direction: column;
+}
+.Support-form>input{
+    border: none;
 }
