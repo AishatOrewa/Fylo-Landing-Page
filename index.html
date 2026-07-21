@@ -4,36 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fylo Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <h1>Fylo</h1>
-        <a href="">Features</a>
-        <a href="">Term</a>
-        <a href="">Sign In</a>
+        <div>
+          <img src="images/logo.svg" alt="Fylo Logo" />
+        </div>
+        <ul>
+          <li><a href="">Features</a></li>
+          <li><a href="">Term</a></li>
+          <li><a href="">Sign In</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <section>
-        <div>
+      <section class="hero">
+        <div class="hero-text">
           <h2>All your files in one secure location, accessible anywhere.</h2>
           <p>
             Fylo stores your most important files in one secure location. Access
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
-
-          <input type="email" placeholder="Enter your email" />
-          <button type="submit">Get Started</button>
+          <form action="">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">Get Started</button>
+          </form>
         </div>
-        <div>
-          <img src="" alt="" />
+        <div class="hero-image">
+          <img
+            src="images/illustration-1.svg"
+            alt="An illustration describing file management"
+          />
         </div>
       </section>
-      <section>
-        <article>
+      <section class="productive">
+        <div>
           <h2>Stay productive, wherever you are</h2>
           <p>
             Never let location be an issue when accessing your files. Fylo has
@@ -44,19 +53,24 @@
             for live collaboration. No email attachments required!
           </p>
           <a href="">See how fylo works</a>
-          <aside>
+          <article class="testimony">
             <p>
-              " Fylo has improved our team productivity by an order of
-              magnitude. Since making the switch our team has become a
-              well-oiled collaboration machine.
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
             </p>
-            <div>
-              <img src="" alt="" />
-              <p>Kyle Burton</p>
-              <p>Founder & CEO, Huddle</p>
-            </div>
-          </aside>
-        </article>
+            <footer class="productive-profile">
+              <img src="images/avatar-testimonial.jpg" alt="Avatar profile" />
+              <div>
+                <p>Kyle Burton</p>
+                <p>Founder &amp; CEO, Huddle</p>
+              </div>
+            </footer>
+          </article>
+        </div>
+        <div>
+          <img src="images/illustration-2.svg" alt="productive-image" />
+        </div>
       </section>
       <section>
         <div>
@@ -67,7 +81,7 @@
             would be happy to help you.
           </p>
         </div>
-        <div>
+        <form>
           <input
             type="email"
             name="email"
@@ -75,30 +89,30 @@
             placeholder="email@example.com"
           />
           <button type="submit">Get Started For Free</button>
-        </div>
+        </form>
       </section>
     </main>
     <footer>
       <div>
-        <h1>Fylo</h1>
+        <img src="images/logo.svg" alt="Fylo logo" />
         <p>Phone: +1-543-123-4567</p>
         <p>example@fylo.com</p>
       </div>
       <div>
-        <p>About Us</p>
-        <p>Jobs</p>
-        <p>Press</p>
-        <p>Blog</p>
+        <a href="">About Us</a>
+        <a href="">Jobs</a>
+        <a href="">Press</a>
+        <a href="">Blog</a>
       </div>
       <div>
-        <p>Contact Us</p>
-        <p>Terms</p>
-        <p>Privacy</p>
+        <a href="">Contact Us</a>
+        <a href="">Terms</a>
+        <a href="">Privacy</a>
       </div>
       <div>
-        <img src="" alt="Facebook Icon" />
-        <img src="" alt="Twitter Icon" />
-        <img src="" alt="Instagram Icon" />
+        <a href=""><img src="images/" alt="Facebook Icon" /></a>
+        <a href=""><img src="images/" alt="Twitter Icon" /></a>
+        <a href=""><img src="" alt="Instagram Icon" /></a>
       </div>
     </footer>
   </body>
