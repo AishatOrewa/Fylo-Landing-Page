@@ -19,6 +19,9 @@ nav a{
   text-decoration: none;
   color: hsl(243, 87%, 12%);
 }
+.fa-bars{
+  display: none;
+}
 .hero{
   display: flex;
   justify-content: space-between;
@@ -189,20 +192,21 @@ body>footer{
   color: hsl(224, 93%, 58%);
 }
 @media (max-width: 768px){
-  nav{
-    padding: 1rem;
-  }
   .hero{
+    justify-content: center;
     flex-direction: column-reverse;
+    width: 100%;
+  }
+  .hero-text{
     text-align: center;
   }
   .hero form{
     flex-direction: column;
     margin: 0 3rem;
-    width: 300px;
-  }
+   }
   .productive{
     flex-direction: column-reverse;
+    width: 100%;
   }
   .productive h2{
     text-align: center;
@@ -218,6 +222,7 @@ body>footer{
   .Support{
     flex-direction: column;
     text-align: center;
+    width: 100%;
   }
   .Support-form{
     flex-direction: column;
@@ -225,6 +230,9 @@ body>footer{
   }
   .hero form>button, .Support-form button{
     width: 300px;
+  }
+  footer{
+    width: 100%;
   }
   .footer-content{
     flex-direction: column;
